@@ -12,8 +12,7 @@
 <br> 
 <br> Result:
 <br> Total Frequency observed: 36
-<br> Frequency Spoken Fiction Magazine Newspaper Academic 
-<br><p>"   36       6       0       12        16       2  "</p>
+<br> Spoken:6 Fiction:0 Magazine:12 Newspaper:16 Academic:2 
 <br> Most active year: 2015
 <br> Most active time period: 2014 - 2017
 <br> Least active year: 2002, 2011
