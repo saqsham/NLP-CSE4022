@@ -1,7 +1,5 @@
 # A sample text taken from William Shakesspeare's Wikipedia
 # link: https://en.wikipedia.org/wiki/William_Shakespeare
-import nltk
-from nltk.corpus import indian
 
 # Getting the info and assigning a variable
 ws = """
@@ -36,4 +34,3 @@ print(ws)
 print(wsh)
 
 # Obesrvations in Task-1.md
-print(nltk.corpus.indian.words('hindi.pos'))
