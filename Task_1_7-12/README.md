@@ -1,4 +1,4 @@
-<h1 style="grey">7th December 2019</h1>
+<h1>7th December 2019</h1>
 
 text intro
 Piece of text
