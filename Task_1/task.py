@@ -32,5 +32,3 @@ print(ws)
 
 # printing and observing the output
 print(wsh)
-
-# Obesrvations in Task-1.md
