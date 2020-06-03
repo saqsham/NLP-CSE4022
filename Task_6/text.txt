@@ -1,0 +1,11 @@
+Performance of 
+- Stemmer
+- Porter
+- Lancaster
+- Snowball
+- Regexp
+
+mail git repo to ma'am
+sharmilak.scse2019@gmail.com
+
+do something on vectorizers

@@ -1,0 +1,47 @@
+1. 
+from nltk.corpus import stopwords
+
+stopwords.words('english')
+
+2. cmu wordlist
+import nltk
+entries = nltk.corpus.cmudict.entries()
+len(entries)
+
+// IPA international phonetic Alplabet
+
+3. Wordnet
+from nltk.corpus import wordnet as wn
+wn.synsets('motorcar') # id for subjects
+wn.synsets('id').lemma_names() # head words / lemmas in the subset
+
+II NLTK pipeline 
+
+import nltk
+texts = """Hugh was born in Oxford, England on June 11, 1959, to Patricia (Laidlaw) and William George Ranald Mundell "Ran" Laurie, a doctor, both of Scottish descent. He was educated at Eton and Cambridge. Son of an Olympic gold medalist in the sport, he rowed for the England youth team (1977) and for Cambridge (1980). He met Emma Thompson at Cambridge in 1978 when both joined "Footlights" and was introduced to Stephen Fry by Emma in 1980. Hugh is married and lives in Los Angeles. His wife and three children, who previously lived in London, are moving to Los Angeles to live with him. Besides acting and comedy, he has written the best-selling thriller The Gun Seller. A second novel, titled The Paper Soldier, is forthcoming."""
+
+for text in texts:
+    ss = nltk.sent_tokenize(text)
+    for s in ss:
+        words = nltk.word_tokenize(s)
+        t = nltk.pos_tag(words)
+        print(t)
+
+III Implement 
+from nltk.tokenize import TweetTokenizer
+t = " "
+tw = TweetTokenizer()
+tw.tokenize(t)
+# @AndrewNg 
+The ne UN Climate report shows our planet is nearing crisis. While individuals 
+tweaking their carbon footprint is a good step, we now need more 
+than that.
+
+IV frequency Distribution 
+Brown COrpus:
+frmo nltk.corpus import brown 
+news_textt = brown.words(categories="news")
+fdist = nltk.FreqDist(w.lower() for w in news_text)
+modals = ['can', 'could', 'may', 'might', 'must', 'will']
+for m in modals:
+    print(m + ":", fdist[m], end="")
