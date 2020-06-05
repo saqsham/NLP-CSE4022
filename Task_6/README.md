@@ -5,3 +5,11 @@
 <br> Tried on many different words and observed the result
 <br> 
 <br> Studied aboute Vectorization
+<br>Performance of 
+<br>- Stemmer
+<br>- Porter
+<br>- Lancaster
+<br>- Snowball
+<br>- Regexp
+<br>
+<br>do something on vectorizers
